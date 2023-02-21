@@ -32,6 +32,9 @@ hintParams = ["-a", "qqq"]
     [buildPlans.pragmasevka.variants]
     inherits = "ss08"
 
+    [buildPlans.pragmasevka.variants.design]
+    zero = "slashed"
+
     [buildPlans.pragmasevka.weights.regular]
     shape = 425
     menu = 400
